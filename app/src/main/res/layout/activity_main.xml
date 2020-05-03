@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize">
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="70dp"
+        android:src="@drawable/app"/>
+    <EditText
+        android:id="@+id/input_uid"
+        android:layout_width="230dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:textColor="#1c252a"
+        android:hint="My userid" />
+    <EditText
+        android:id="@+id/pass_word"
+        android:layout_width="230dp"
+        android:layout_height="44dp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:textColor="#1c252a"
+        android:hint="My password"/>
+    <TextView
+        android:layout_width="155dp"
+        android:layout_height="14dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="#758692"
+        android:text="Forgot your password?"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="180dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:text="logo in"
+        android:textColor="#fff"
+        android:layout_margin="30dp"
+        android:background="#ff0000"/>
+    <TextView
+        android:layout_width="176dp"
+        android:layout_height="14dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:textColor="#758692"/>
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_margin="6dp"
+        android:text="logo in with facebook"
+        android:textColor="#fff"
+        android:background="#3245b8"/>
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="logo in with Twitter"
+        android:textColor="#fff"
+        android:background="#0091ea"/>
+</LinearLayout>
